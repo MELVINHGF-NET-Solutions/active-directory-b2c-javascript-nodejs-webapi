@@ -1,13 +1,17 @@
 {
     "credentials": {
-        "tenantName": "fabrikamb2c",
-        "clientID": "93733604-cc77-4a3c-a604-87084dd55348"
+        "tenantName": "melvinhgfb2c.onmicrosoft.com",
+        "clientID": "e6fb1550-f10b-441d-899f-c867cf3c9555"
     },
     "policies": {
-        "policyName": "B2C_1_SUSI"
+        "signUpSignIn": "B2C_1_signupsignin1",
+        "forgotPassword": "B2C_1_reset",
+        "editProfile": "B2C_1_profileediting1",
+
     },
     "resource": {
-        "scope": ["demo.read"]
+        "scope": ["tasks.read"],
+        "scope": ["tasks.write"]
     },
     "metadata": {
         "authority": "login.microsoftonline.com",
